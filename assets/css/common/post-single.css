@@ -5,18 +5,28 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 36px;
+    text-align: center;
 }
 
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
+    text-align: center;
+    display: none;
 }
 
-.post-meta,
+.post-meta{
+    color: var(--secondary);
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .breadcrumbs {
@@ -32,6 +42,10 @@
 .post-meta .i18n_list li {
     list-style: none;
     margin: auto 3px;
+}
+
+.page-header h1 {
+   text-transform: capitalize;
 }
 
 .breadcrumbs a {
@@ -315,6 +329,10 @@
     gap: 10px;
 }
 
+.post-tags{
+    text-align: center;
+}
+
 .post-tags li {
     display: inline-block;
 }
@@ -334,6 +352,7 @@
     font-size: 14px;
     line-height: 34px;
     background: var(--code-bg);
+    text-align: center;
 }
 
 .post-tags a:hover,
