@@ -12,18 +12,9 @@
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: center;
-    display: none;
 }
 
-.post-meta{
-    color: var(--secondary);
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
+.post-meta,
 .breadcrumbs {
     color: var(--secondary);
     font-size: 16px;
@@ -42,10 +33,6 @@
 .post-meta .i18n_list li {
     list-style: none;
     margin: auto 3px;
-}
-
-.page-header h1 {
-   text-transform: capitalize;
 }
 
 .breadcrumbs a {
@@ -327,10 +314,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-}
-
-.post-tags{
-    text-align: center;
+    justify-content: center;
 }
 
 .post-tags li {
@@ -352,7 +336,6 @@
     font-size: 14px;
     line-height: 34px;
     background: var(--code-bg);
-    text-align: center;
 }
 
 .post-tags a:hover,
